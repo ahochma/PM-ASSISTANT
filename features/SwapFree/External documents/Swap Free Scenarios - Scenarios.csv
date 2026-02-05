@@ -1,0 +1,28 @@
+Trade Value Bin,Scenario 1,,Scenario 2,,Scenario 3,,Scenario 4,,,Scenario 5,,
+,Fee,Revenue,Fee,Revenue,Fee,Revenue,Fee,Revenue,,Trade Value Bin,Fee,Revenue
+"$0 to $1,000",$10,"$1,976,920",$5,"$988,460",$5,"$988,460",$2,"$395,384",,$0-$1000,$2,"$394,132"
+"$1,001 to $10,000",$10,"$7,711,140",$10,"$7,711,140",$10,"$7,711,140",$10,"$7,711,140",,"$1,000-$5,000",$5,"$1,572,480"
+"$10,001 to $100,000",$10,"$3,939,650",$20,"$7,879,300",$10,"$3,939,650",$10,"$3,939,650",,"$5,000-$10,000",$10,"$4,690,010"
+"$100,001 to $1,000,000",$10,"$681,350",$50,"$3,406,750",$20,"$1,362,700",$20,"$1,362,700",,"$10,000-$50,000",$15,"$5,144,835"
+"Over $1,000,000",$10,"$57,550",$100,"$575,500",$100,"$575,500",$50,"$287,750",,"$50,000-$100,000",$20,"$1,202,320"
+,,"$14,366,610",,"$20,561,150",,"$14,577,450",,"$13,696,624",,"$100,000-$500,000",$25,"$1,612,125"
+,,,,,,,,,,"$500,000+",$30,"$351,300"
+Scenario 1,,,,,,,,,,,,"$14,573,070"
+Description,Fixed Fee,,,,,,,,,,,
+Pros,"Easiest to explain to customers, balanced revenue, No edge cases",,,,,,,,,,,
+Cons,"""Abusable"" by the big fishes, smaller players pay for the big ones and can be burnt pretty fast",,,,,,Scenario 5,,,,,
+,,,,,,,Description,Most balanced solution,,,,
+Scenario 2,Somewhat linear steps,,,,,,Pros,"No burning small customers, small incrementations to reflect additional pay per bin yet encouraging to increase position size",,,,
+Description,A balanced approach,,,,,,Cons,"More bins - harder to ""develop"" and maintain.",,,,
+Pros,"Less harsh on small customers & Harsher on big customers (100,000+)",,,,,,,,,,,
+Cons,"mid-bins pay the most (1,000-100,000 TV), 20-50$ fee might burn a lot of relatively big customers",,,,,,,,,,,
+,,,,,,,,,,,,
+Scenario 3,,,,,,,,,,,,
+Description,"Small,Mid,Big - Simple yet effective",,,,,,,,,,,
+Pros,"Less harsh on small customers & Harsher on biggest customers (1,000,000+)",,,,,,,,,,,
+Cons,"Might change customers behavior towards 10,000-1,000,000 TV instead of 1,000,000.",,,,,,,,,,,
+,,,,,,,,,,,,
+Scenario 4,,,,,,,,,,,,
+Description,Cheapest Solution,,,,,,,,,,,
+Pros,"Most competetive one, Easy on small customers",,,,,,,,,,,
+Cons,"Less revenue, less intimidating for bigger customers",,,,,,,,,,,
